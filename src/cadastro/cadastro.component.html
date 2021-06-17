@@ -1,1 +1,47 @@
-<p>cadastro works!</p>
+<div class="formulario-cadastro">
+    <div class="row">
+        <div class="col">
+            <div class="form-floating mb-3">
+                <input type="name" class="form-control" id="nomeCurso" name="nome"
+                    placeholder="nome do curso" [(ngModel)]="nome">
+                <label for="nomeCurso">Nome do curso</label>
+              </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-4">
+            <form class="form-floating">
+                <input type="data" class="form-control" id="dataInicio"
+                    name="dataInicio"
+                    placeholder="data de início" [(ngModel)]="dataInicio">
+                <label for="dataInicio">Data de início</label>
+            </form>
+        </div>
+        <div class="col-lg-4 col-md-4">
+            <form class="form-floating">
+                <input type="data" class="form-control" id="dataFim" name="dataFim"
+                    placeholder="data final" [(ngModel)]="dataFim">
+                <label for="dataFim">Data final</label>
+            </form>
+        </div>
+        <div class="col-lg-4 col-md-4">
+            <div class="form-floating">
+                <input type="name" class="form-control" id="duracao" name="duracao"
+                    placeholder="duração em semanas" [(ngModel)]="duracao">
+                <label for="duracao">Duração (Semanas)</label>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Descrição do curso" name="descricao"
+                    id="descricao" style="height: 100px" [(ngModel)]="descricao"></textarea>
+                <label for="descricao">Descrição</label>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 d-flex align-items-center justify-content-center">
+            <button type="button" class="btn btn-outline-warning btn-lg" (click)="cadastrar()">Cadastrar</button>
+        </div>
+    </div>
+</div>

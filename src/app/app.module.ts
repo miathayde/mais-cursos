@@ -5,16 +5,20 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from '../header/header.component';
 import { CadastroComponent } from '../cadastro/cadastro.component';
+import { FormsModule } from '@angular/forms';
+import { ListaCursosComponent } from '../lista-cursos/lista-cursos.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    CadastroComponent
+    CadastroComponent,
+    ListaCursosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
