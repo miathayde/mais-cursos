@@ -8,6 +8,7 @@ import { CadastroComponent } from '../cadastro/cadastro.component';
 import { FormsModule } from '@angular/forms';
 import { ListaCursosComponent } from '../lista-cursos/lista-cursos.component';
 import { HomeComponent } from '../home/home.component';
+import { DescricaoModalComponent } from '../descricao-modal/descricao-modal.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HomeComponent } from '../home/home.component';
     HeaderComponent,
     CadastroComponent,
     ListaCursosComponent,
-    HomeComponent
+    HomeComponent,
+    DescricaoModalComponent
   ],
   imports: [
     BrowserModule,
