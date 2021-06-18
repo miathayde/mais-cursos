@@ -1,0 +1,36 @@
+// .row {
+//     div:first-child {
+//         background-color: aliceblue;
+//         display: flex;
+//         justify-content: center;
+//         border-radius: 200px;
+
+//         img {
+//             height: 25rem;
+//             width: auto;
+//         }
+//     }
+// }
+
+.container {
+    // background-color: aliceblue;
+    // border-radius: 20px;
+
+    div:first-child {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        height: 23rem;
+        width: auto;
+    }
+
+    button {
+        width: 26rem;
+        height: 5rem;
+        font-size: 2rem;
+        font-family: sans-serif;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+}

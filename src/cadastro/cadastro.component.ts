@@ -40,7 +40,7 @@ export class CadastroComponent implements OnInit {
       localStorage.setItem("dataFim", this.dataFim);
       localStorage.setItem("duracao", this.duracao.toString());
 
-      window.location.assign("http://localhost:4200/");
+      window.location.assign("http://localhost:4200/cursos");
     }
   }
 }
