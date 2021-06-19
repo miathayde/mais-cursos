@@ -1,9 +1,15 @@
-.container {
-    background-color: aliceblue;
-    padding-bottom: 2px;
-    border-radius: 8px;
+.galeria {
+    flex-wrap: wrap;
+    align-items: flex-start;
 
-    table {
-        border: 1;
+    .card {
+        width: 480px;
+        height: 450px;
+        text-align: justify;
+        margin-bottom: 30px;
+
+        .card-body {
+            color: rgb(66, 71, 78);
+        }
     }
 }

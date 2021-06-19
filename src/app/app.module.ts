@@ -25,6 +25,7 @@ import { DescricaoModalComponent } from '../descricao-modal/descricao-modal.comp
     FormsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [DescricaoModalComponent]
 })
 export class AppModule { }
